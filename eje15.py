@@ -13,9 +13,9 @@ while aux_num != num_buscado:
     if aux_num == num_buscado:
         print("Felicitaciones, el número ingresado es correcto...")
     elif aux_num < num_buscado:
-        print("\tIntente de nuevo, por favor... El número buscado es menor al ingresado")
-    elif aux_num > num_buscado:
         print("\tIntente de nuevo, por favor... El número buscado es mayor al ingresado")
+    elif aux_num > num_buscado:
+        print("\tIntente de nuevo, por favor... El número buscado es menor al ingresado")
 else:
     print("----Final del juego---")
         
