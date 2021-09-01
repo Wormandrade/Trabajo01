@@ -11,9 +11,11 @@ aux_num = 0
 while aux_num != num_buscado:
     aux_num = int(input("Ingrese el número a validar: "))
     if aux_num == num_buscado:
-        print("Felicitaciones, el número ingresado es correcto..")
-    else:
-        print("\tIntente de nuevo, por favor..")
+        print("Felicitaciones, el número ingresado es correcto...")
+    elif aux_num < num_buscado:
+        print("\tIntente de nuevo, por favor... El número buscado es menor al ingresado")
+    elif aux_num > num_buscado:
+        print("\tIntente de nuevo, por favor... El número buscado es mayor al ingresado")
 else:
     print("----Final del juego---")
         
